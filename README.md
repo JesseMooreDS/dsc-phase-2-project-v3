@@ -47,15 +47,14 @@ The collected data includes information on thousands of movies, covering key asp
 # Genre Analysis
 
 The data was aggregated and analyzed to determine which movie genres provide the highest average profits. Our findings indicate that the science fiction genre consistently generates the most profits. Further trend analysis suggests that the profitability of science fiction movies continues to rise.
-![Movie Profits by Genre](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Mean_Total_Profit_By_Year.png)
-
+![Movie Profits by Genre](https://raw.githubusercontent.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Mean_Total_Profit_By_Year.png)
 
 
 # Budget vs. Profit Analysis
 
 An in-depth analysis was conducted to evaluate the impact of production budgets on profitability. The results confirm a strong linear relationship between production budget and profits. This relationship is illustrated through a linear regression plot comparing average production budgets to average profits for science fiction movies, alongside a scatter plot depicting actual production budgets versus realized profits.
 
-![Movie Profits by Genre](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Total_Profit_for_Production_Budget.png)
+![Total_Profit_for_Production_Budget](https://raw.githubusercontent.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Total_Profit_for_Production_Budget.png)
 
 
 
@@ -63,7 +62,7 @@ An in-depth analysis was conducted to evaluate the impact of production budgets 
 
 To determine the most profitable time to release a movie, the data was grouped by month. Although the differences are marginal, June emerged as the most profitable month, narrowly outperforming November in terms of average profits.
 
-![Movie Profits by Genre](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Average_Total_Profit_by_Movie_Release_Month.png)
+![Average_Total_Profit_by_Movie_Release_Month](https://raw.githubusercontent.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Average_Total_Profit_by_Movie_Release_Month.png)
 
 
 
