@@ -1,5 +1,10 @@
 #Ignore Mac system files.
 .DS_Store
+
+#extracted data files
 zippedData/extracted/im.db
 zippedData/im.db
 */im.db
+
+#iPython checkpoints
+.ipynb_checkpoints
