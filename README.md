@@ -75,4 +75,6 @@ Based on our analysis, we have drawn the following key insights:
 
 * Budget Impact: There is a strong linear relationship between production budgets and profits.
 
-For further details, please refer to the linked project notebook and presentation.
+For further details, please refer to the following linked project notebook and presentation:
+[project notebook](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/notebook.ipynb)
+[presentation](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/presentation.pdf)
