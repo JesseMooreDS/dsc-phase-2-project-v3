@@ -1,5 +1,8 @@
 # Movie Profits Analysis Project
 
+![ticketwindow](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/ticketwindow.jpg?raw=true)
+
+
 # Overview
 
 Our clients are looking to enter the movie industry and aim to maximize their profits. This project analyzes historical data to uncover key insights that can guide their investment and production decisions.
@@ -16,11 +19,13 @@ The goal of this analysis is to examine relevant datasets to identify key patter
 
 # Stakeholder Questions
 
-* Which movie genres yield the highest profits?
+* Which movie genres yield the highest revenues?
 
 * What are the most profitable months for releasing a movie?
 
 * How significant is the production budget in determining return on investment?
+
+* What principals (directors/actors/writers) yield the highest revenues?
 
 # Data Understanding and Analysis
 
@@ -38,6 +43,9 @@ The datasets used in this analysis were sourced from reputable industry platform
 
 * The Numbers
 
+
+![cinemaaudience](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/cinemaaudience.jpg?raw=true)
+
 # Data Description
 
 The collected data includes information on thousands of movies, covering key aspects such as production budgets, global and domestic revenues (USA), genres, and release dates. This comprehensive dataset allows for in-depth analysis of profitability trends across different movie attributes.
@@ -46,34 +54,36 @@ The collected data includes information on thousands of movies, covering key asp
 
 # Genre Analysis
 
-The data was aggregated and analyzed to determine which movie genres provide the highest average profits. Our findings indicate that the science fiction genre consistently generates the most profits. Further trend analysis suggests that the profitability of science fiction movies continues to rise.
-![Movie Profits by Genre](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Mean_Total_Profit_By_Year.png?raw=true)
+The data was aggregated and analyzed to determine which movie genres provide the highest median return on investment per category of production budget. Our findings indicate that the animated genre generates the most revenue for the 'Upper middle' category. 
+![genre_by_budget](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/genre_by_budget.png?raw=true)
 
-# Budget vs. Profit Analysis
+# Director Analysis
 
-An in-depth analysis was conducted to evaluate the impact of production budgets on profitability. The results confirm a strong linear relationship between production budget and profits. This relationship is illustrated through a linear regression plot comparing average production budgets to average profits for science fiction movies, alongside a scatter plot depicting actual production budgets versus realized profits.
-
-![Total_Profit_for_Production_Budget](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Total_Profit_for_Production_Budget.png?raw=true)
-
+An in-depth analysis was conducted to evaluate the impact of director on ROI for each production budget category. This analysis shows that Kyle Balda has the highest median ROI for the 'Upper Middle' genre. 
+![director_by_budget](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/director_by_budget.png?raw=true)
 
 
-# Seasonal Release Analysis
 
-To determine the most profitable time to release a movie, the data was grouped by month. Although the differences are marginal, June emerged as the most profitable month, narrowly outperforming November in terms of average profits.
+# Monthly Release Analysis
 
-![Average_Total_Profit_by_Movie_Release_Month](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Average_Total_Profit_by_Movie_Release_Month.png?raw=true)
+To determine the most profitable time to release a movie, the data was grouped by month. June emerged as the most profitable month for Animated movies ROI. Therefore we recommend releasing our animated movie in the month of June. 
 
+![Average_ROI_by_Movie_Release_Month](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Average_ROI_by_Movie_Release_Month.png'?raw=true)
+
+
+![cinemaexcitement](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/cinemaexcitement.jpg?raw=true)
 
 
 # Conclusion
 
 Based on our analysis, we have drawn the following key insights:
 
-* Best Release Months: June and November are the most profitable months for movie releases.
+* Top-Grossing Genre: Animated movies have the highest ROI for the Upper Middle production budget category. 
 
-* Top-Grossing Genre: Science fiction movies yield the highest average profits.
+* Director: Kyle Balda has the highest median ROI for the 'Upper Middle' cateogry.
 
-* Budget Impact: There is a strong linear relationship between production budgets and profits.
+* Best Release Months: June is the most profitable release month for animated movies.
+
 
 For further details, please refer to the following linked project notebook and presentation:
 
