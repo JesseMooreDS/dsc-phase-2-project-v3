@@ -68,7 +68,7 @@ An in-depth analysis was conducted to evaluate the impact of director on ROI for
 
 To determine the most profitable time to release a movie, the data was grouped by month. June emerged as the most profitable month for Animated movies ROI. Therefore we recommend releasing our animated movie in the month of June. 
 
-![Average_ROI_by_Movie_Release_Month](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Average_ROI_by_Movie_Release_Month.png'?raw=true)
+![MedROIbyMonth](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/Average_ROI_by_Movie_Release_Month.png'?raw=true)
 
 
 ![cinemaexcitement](https://github.com/JesseMooreDS/dsc-phase-2-project-v3/blob/main/cinemaexcitement.jpg?raw=true)
